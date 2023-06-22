@@ -32,7 +32,7 @@ let Copy = () =>{
         <div>
       
 <div class="mb-3">
-    <h1>{props.heading} - Enter Text</h1>
+    <h1>{props.heading}</h1>
   <textarea className="form-control" value={text} id="mybox" rows="6" onChange={(e)=>setText(e.target.value)}></textarea>
 </div>
 
